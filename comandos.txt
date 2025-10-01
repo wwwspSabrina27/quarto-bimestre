@@ -1,0 +1,11 @@
+git init
+
+git config --global user.name "wwwspSabrina27"
+git config --global user.email "00001083562435sp@al.educacao.sp.gov.br"
+
+git branch -M main 
+git remote add origin https://github.com/wwwspSabrina27/quarto-bimestre.git
+git pull origin main
+
+
+
