@@ -10,4 +10,3 @@ if resposta.status_code == 200:
     try:
         cotacoes = resposta.json()
         print("Cotações obtidas com sucesso")
-        
