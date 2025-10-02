@@ -1,6 +1,12 @@
 use("db_test");
  
-
+db.Clientes.insertOne({
+    "cliente_id": 1,
+    "nome": "Maria Silva",
+    "email": "maria@example.com",
+    "telefone": "123456789",
+    "pedidos": [1, 2] // IDs dos pedidos relacionados ao cliente
+});
 
 db.Produtos.insertMany([
     {
@@ -41,6 +47,3 @@ db.Pedidos.insertOne({
         }
     ]
 });
-
-
-
