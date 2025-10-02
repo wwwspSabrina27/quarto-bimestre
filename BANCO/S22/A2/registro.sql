@@ -91,3 +91,4 @@ end;
  
 call db_tech.add_item_pedido(1, 1, 1, 3500.00);
 call db_tech.add_item_pedido(1, 2, 2, 1500.00);
+
